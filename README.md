@@ -8,16 +8,16 @@
 
 我们一般是用 GPU 算力来训练模型的，所以要是能把 Colab 变成一个终端就更香了
 
-以下，我们就把 Colab 通过 ngrok 代理，将 Colab 变成一台远程服务器
+以下，我们就把 Colab 通过 `ngrok` 代理，将 Colab 变成一台远程服务器
 
-ngrok 是一个反向代理，通过在公共端点和本地运行的 Web 服务器之间建立一个安全的通道，实现内网主机的服务可以暴露给外网。
+`ngrok` 是一个反向代理，通过在公共端点和本地运行的 Web 服务器之间建立一个安全的通道，实现内网主机的服务可以暴露给外网。
 
 1. 打开下面这一个网站
 
 ```html
 https://colab.research.google.com/github/imadelh/comments/blob/master/CUDA_GPU-server.ipynb
 ```
-或者 `直接下载`
+或者 [直接下载](https://github.com/WangRongsheng/Google-Colab_ngrok/archive/master.zip)
 
 2. 按照代码一步一步运行
 
@@ -25,7 +25,7 @@ https://colab.research.google.com/github/imadelh/comments/blob/master/CUDA_GPU-s
 
 ![](/img/1.jpg)
 
-上面显示的 T4，若不是 T4 可以多次断开 Colab 重新连接，再运行代码
+上面显示的 T4，若不是 T4 可以多次断开 `Colab` 重新连接，再运行代码
 
 下面红框中是随机生成的密码，待会会用到
 
@@ -33,7 +33,7 @@ https://colab.research.google.com/github/imadelh/comments/blob/master/CUDA_GPU-s
 
 3. 授权 ngrok
 
-运行到以下程序部分时，会有一个跳转连接，点击它会跳转到 ngrok 的网站，首次使用可能需要注册，但是我们使用 Google 账号进行登录。
+运行到以下程序部分时，会有一个跳转连接，点击它会跳转到 `ngrok` 的网站，首次使用可能需要注册，但是我们使用 `Google 账号` 进行登录。
 
 生成授权码，直接复制就行了
 
